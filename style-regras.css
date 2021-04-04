@@ -42,7 +42,12 @@ h2 {
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 50px;
+	color: rgba(134,43,43,1);
+	line-height: 2;
+    text-align: center; 
+
+	
 }
 
 h4 {
@@ -61,6 +66,12 @@ h6 {
 	color: #cc0000;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+h7 {
+	font-size: 16px;
+	color: aliceblue;
+	text-align: center;
+	}
 
 p {
 	font-size: 14px;
@@ -165,7 +176,7 @@ box-shadow: -2px 0px 45px 5px rgba(184,43,43,1);
 	
 }
 .spad {
-	padding-top: 160px;
+	padding-top: 10px;
 	padding-bottom: 0px;
     
 	
@@ -3681,4 +3692,18 @@ box-shadow: -2px 0px 85px 5px rgba(184,43,43,1);
     max-width: 100%;
     transform: rotate(0deg);
   }
+}
+
+main {
+  min-height: 800px;
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+  background: hsl(0, 0%, 20%);
+}
+#divider {
+  height: 2px;
+  width: 100%;
+  background: blue;
+  background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 70%), hsl(0, 0%, 20%));
 }
