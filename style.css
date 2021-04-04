@@ -30,12 +30,15 @@ h6 {
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 90px;
 	
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 20px;
+	color: #cc0000;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h3 {
@@ -49,7 +52,8 @@ h4 {
 }
 
 h5 {
-	font-size: 20px;
+	font-size: 13px;
+
 }
 
 h6 {
@@ -140,8 +144,11 @@ box-shadow: -2px 0px 45px 5px rgba(184,43,43,1);
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: relative;
-
+	background-position: center;
+	border-bottom: 3px solid #EC383B;
+   -webkit-box-shadow: 0px 0px 20px 20px #000000;
+  -moz-box-shadow: 0px 0px 20px 20px #000000;
+  box-shadow: 0px 0px 20px 20x #000000;
 	
 }
 .bg_video{
@@ -732,7 +739,6 @@ box-shadow: -2px 0px 45px 5px rgba(184,43,43,1);
 ------------------------*/
 
 .review-section {
-	background-color: #000000;
 	border-top: 3px solid #EC383B;
 	background-color: #000000;
 	 margin-top:  20px;
@@ -954,20 +960,23 @@ box-shadow: -2px 0px 45px 5px rgba(184,43,43,1);
 ====================*/
 
 .page-info-section {
-	height: 530px;
+	height: 300px;
 	position: relative;
+  -webkit-box-shadow: 0px 10px 40px 10px #000000;
+  -moz-box-shadow: 0px 0px 20px 20px #000000;
+   box-shadow: 0px 0px 20px 20x #000000;
 }
 
 .page-info-section .pi-content {
 	position: absolute;
 	width: 100%;
 	bottom: 65px;
-	left: 0;
+	left: 0%;
 	z-index: 2;
 }
 
 .page-info-section .pi-content h2 {
-	font-size: 60px;
+	font-size: 30px;
 	margin-bottom: 25px;
 	font-weight: 400;
 }
@@ -1153,6 +1162,7 @@ box-shadow: -2px 0px 45px 5px rgba(184,43,43,1);
 	color: #131313;
 	font-weight: 400;
 	margin-bottom: 10px;
+	
 }
 
 .comment-list .comment .comment-content h5 span {
@@ -1219,43 +1229,55 @@ box-shadow: -2px 0px 45px 5px rgba(184,43,43,1);
 --------------------*/
 
 .community-page .site-pagination {
-	padding-top: 62px;
+	padding-top: 400px;
+	
 }
 
 .community-warp {
 	max-width: 1367px;
 	margin: 0 auto;
-	background: rgba(0, 0, 0, 0.28);
+	background: rgba(0, 0, 0, 0.38);
+	padding-top: 10px;
+	padding-bottom: %;
+	
+	z-index: 2;
 }
-
 .community-post-list {
 	list-style: none;
 }
 
 .community-post-list li {
 	padding: 33px 55px 65px;
-	margin-bottom: 21px;
+	margin-bottom: -310px;
 	overflow: hidden;
 	border: 1px solid #878787;
 	background: #1f2225;
+	-webkit-box-shadow: 0px 10px 40px 10px #000000;
+  -moz-box-shadow: 0px 0px 20px 20px #000000;
+   box-shadow: 0px 0px 20px 20x #000000;
 }
 
 .community-post-list .community-post .author-avator {
-	width: 63px;
-	height: 63px;
+	width: 75px;
+	height: 75px;
 	border-radius: 50%;
 	float: left;
+	-webkit-box-shadow: -2px 0px 85px 5px rgba(184,43,43,1);
+	-moz-box-shadow: -2px 0px 85px 5px rgba(184,43,43,1);
+	box-shadow: -2px 0px 45px 5px rgba(184,43,43,1);
 }
 
 .community-post-list .community-post .post-content {
 	padding-left: 100px;
+	
 }
 
 .community-post-list .community-post .post-content h5 {
-	font-size: 16px;
-	color: #ff205f;
+	font-size: 15px;
+	color: #878787;
 	font-weight: 400;
 	margin-bottom: 10px;
+	
 }
 
 .community-post-list .community-post .post-content h5 span {
